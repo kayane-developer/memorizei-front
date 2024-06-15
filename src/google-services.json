@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "859891867482",
+    "project_id": "memorizei-9d989",
+    "storage_bucket": "memorizei-9d989.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859891867482:android:ea27e7b43d016c7743dd63",
+        "android_client_info": {
+          "package_name": "memorizei.memorizei"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsQQF__yi1L5gxgc9XkesCiZFUZ3yNPpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
