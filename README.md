@@ -4,5 +4,6 @@ Frontend do Memorizei! Aplicativo desenvolvido para ajudar na memorização e en
 
 - TypeScript
 - React Native
+- React
 - Expo
 - Axios
