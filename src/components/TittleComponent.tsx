@@ -12,6 +12,7 @@ export default function TittleComponent({ children, ...rest }: TittleProps){
             color={'#000080'}
             fontWeight={'bold'}
             fontSize={30}
+            lineHeight={30}
             {...rest}
         >
             { children }

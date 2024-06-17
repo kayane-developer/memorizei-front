@@ -1,7 +1,7 @@
 import { Box, FormControl, Input } from "native-base";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-export default function InputTextComponent(){
+export default function InputFilterComponent(){
     return(
         <FormControl>
           <Box>

@@ -1,21 +1,24 @@
-import { FormControl, Input, Text, ITextProps } from "native-base";
+import { FormControl, Input, Text } from "native-base";
 import { ReactNode } from "react";
 
-interface InputTextProps extends ITextProps{
-    children: ReactNode
+interface InputTextProps {
+  children: ReactNode;
+  value: string;
+  onChangeText: (text: string) => void;
 }
 
-export default function InputTextComponent({ children, ...rest }: InputTextProps){
-    return(
-        <FormControl mt={20}>
-          <FormControl.Label><Text fontWeight={'bold'}>{ children }</Text></FormControl.Label>
-          <Input
-            w={'80%'}
-            borderRadius={'lg'}
-            borderColor={'orange.500'}
-            { ...rest }
-            
-          />
-        </FormControl>
-    )
+export default function InputTextComponent({ children, value, onChangeText, ...rest }: InputTextProps): JSX.Element {
+  return (
+    <FormControl>
+      <FormControl.Label><Text fontWeight={'bold'}>{children}</Text></FormControl.Label>
+      <Input
+        w={'80%'}
+        borderRadius={'lg'}
+        borderColor={'orange.500'}
+        value={value}
+        onChangeText={onChangeText}
+        {...rest}
+      />
+    </FormControl>
+  )
 }

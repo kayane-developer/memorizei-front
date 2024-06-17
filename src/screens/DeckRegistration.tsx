@@ -12,6 +12,8 @@ import * as yup from 'yup';
 
 import { saveDeck } from '../functions/saveDeck';
 
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 export default function DeckRegistration({ navigation }) {
     const schema = yup.object({
         nome: yup.string().required("Campo obrigatório"),
@@ -27,6 +29,7 @@ export default function DeckRegistration({ navigation }) {
 
     const save = (data) => {
         saveDeck(data, setLoading, setError, setSuccess)
+        .then(navigation.navigate("Tabs"))
         console.log(data)
     }
 

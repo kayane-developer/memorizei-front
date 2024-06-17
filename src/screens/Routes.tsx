@@ -21,8 +21,6 @@ export default function Routes(){
             <Stack.Navigator screenOptions={{ headerShown: false }}>
                 <Stack.Screen name='Login' component={Login}/>
                 <Stack.Screen name='Register' component={Register} />
-                <Stack.Screen name='CardRegistration' component={CardRegistration} />
-                <Stack.Screen name='DeckRegistration' component={DeckRegistration} />
                 <Stack.Screen name='Tabs' component={Tabs} />
             </Stack.Navigator>
         </NavigationContainer>
@@ -38,8 +36,8 @@ export function Tabs(){
                     tabBarStyle: {backgroundColor: '#FF7F50', height: 60}, 
                     tabBarShowLabel: false,
                     tabBarHideOnKeyboard: true,
-                }
-                }>
+                }}
+            >
                 <Tab.Screen 
                     name='shared-cards' 
                     component={SharedCards} 
@@ -69,6 +67,16 @@ export function Tabs(){
                         ),
                     }
                     }
+                />
+                <Tab.Screen
+                    name="CardRegistration"
+                    component={CardRegistration}
+                    options={{ tabBarItemStyle: {display: 'none'} }}
+                />
+                <Tab.Screen
+                    name="DeckRegistration"
+                    component={DeckRegistration}
+                    options={{ tabBarItemStyle: {display: 'none'} }}
                 />
             </Tab.Navigator>
     )

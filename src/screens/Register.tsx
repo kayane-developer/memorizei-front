@@ -11,8 +11,9 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup';
 
 import { saveUser } from '../functions/saveUser';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export default function Register({ navigation }) {
+export default function Register({ navigation }: any) {
   const schema = yup.object().shape({
     usuario: yup.string().required("Campo obrigatório"),
     senha: yup.string().required("Campo obrigatório")
@@ -36,6 +37,7 @@ export default function Register({ navigation }) {
 
   const save = (data) => {
     saveUser(data, setLoading, setError, setSuccess)
+    .then(navigation.navigate("Tabs"))
     console.log(data)
   }
 
@@ -88,7 +90,6 @@ export default function Register({ navigation }) {
               />
             )}
           />
-          {errors?.usuario && <Text color={"red.600"}>{errors?.usuario?.message}</Text>}
         </FormControl>
         <Controller
           name='senha'
@@ -108,7 +109,6 @@ export default function Register({ navigation }) {
             </FormControl>
           )}
         />
-        {errors?.senha && <Text color={"red.600"}>{errors?.senha?.message}</Text>}
       </Box>
       <ButtonComponent onPress={handleSubmit(save)}>Registrar</ButtonComponent>
       <Text
