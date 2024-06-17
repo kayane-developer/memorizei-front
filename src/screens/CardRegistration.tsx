@@ -20,10 +20,10 @@ export default function CardRegistration({ navigation }: any) {
                         <TittleComponent>Cadastro de card</TittleComponent>
                     </Box>
                     <Box mt={"15%"}>
-                        <InputCardRegistration numberOfLines={1}>Baralho</InputCardRegistration>
-                        <InputCardRegistration numberOfLines={1}>Nome do card</InputCardRegistration>
-                        <InputCardRegistration numberOfLines={7}>Frente do card</InputCardRegistration>
-                        <InputCardRegistration numberOfLines={9}>Verso do card</InputCardRegistration>
+                        <InputCardRegistration>Baralho</InputCardRegistration>
+                        <InputCardRegistration>Nome do card</InputCardRegistration>
+                        <InputCardRegistration h={130}>Frente do card</InputCardRegistration>
+                        <InputCardRegistration h={130}>Verso do card</InputCardRegistration>
                     </Box>
                 <ButtonComponent>Salvar</ButtonComponent>
             </VStack>
