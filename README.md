@@ -9,7 +9,9 @@ Frontend do Memorizei! Aplicativo desenvolvido para ajudar na memorização e en
 - Axios
 
 <div style=flex>
-  <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/678d2d05-0a75-4af2-9b5e-3ce941ebe61c" height=100 width=80/>
+  <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/678d2d05-0a75-4af2-9b5e-3ce941ebe61c" height=1280 width=720/>
+
+  
 ![image](https://github.com/kayane-developer/memorizei-front/assets/84989331/4b560a47-29de-4de0-978b-c18187984738)
 ![image](https://github.com/kayane-developer/memorizei-front/assets/84989331/6b7c8332-ff79-478c-9a30-3f5f3582c42d)
 ![image](https://github.com/kayane-developer/memorizei-front/assets/84989331/aac25ed0-9f1d-45d3-9069-534de87fdca8)
