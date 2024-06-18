@@ -13,6 +13,7 @@ Frontend do Memorizei! Aplicativo desenvolvido para ajudar na memorização e en
 - npm install
 - npx expo start
 
+<br/>
 
 <div style=flex>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/678d2d05-0a75-4af2-9b5e-3ce941ebe61c" height=500 width=240/>
