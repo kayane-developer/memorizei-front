@@ -8,7 +8,8 @@ Frontend do Memorizei! Aplicativo desenvolvido para ajudar na memorização e en
 - Expo
 - Axios
 
-
+npm install
+npx expo start
 
 <div style=flex>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/678d2d05-0a75-4af2-9b5e-3ce941ebe61c" height=500 width=240/>
@@ -18,7 +19,7 @@ Frontend do Memorizei! Aplicativo desenvolvido para ajudar na memorização e en
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/e1be0316-ad8e-4974-9c48-c830dce88a00" height=500 width=240/>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/585aaf9a-1f8f-4f6d-8f47-dd01c414d0bf" height=500 width=240/>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/d042f6fd-c072-4af6-b5a7-23aeab1bdb42" height=500 width=240/>
-  <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/c89a3972-b1c8-491b-a342-cd050cf0b185" height=500 width=240/>
+  <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/8e21581a-6cdf-44a3-bcd0-b6f160275e76" height=500 width=240/>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/a3a68c60-f4be-4f6d-8b05-67cabce5700e" height=500 width=240/>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/ff6aff34-6141-495e-8607-f6825f14ffff" height=500 width=240/>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/82c81575-7277-400e-864f-2f0073071b8a" height=500 width=240/>
