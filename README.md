@@ -8,6 +8,8 @@ Frontend do Memorizei! Aplicativo desenvolvido para ajudar na memorização e en
 - Expo
 - Axios
 
+
+
 <div style=flex>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/678d2d05-0a75-4af2-9b5e-3ce941ebe61c" height=500 width=240/>
   <img src="https://github.com/kayane-developer/memorizei-front/assets/84989331/4b560a47-29de-4de0-978b-c18187984738" height=500 width=240/>
