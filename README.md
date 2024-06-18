@@ -8,6 +8,7 @@ Frontend do Memorizei! Aplicativo desenvolvido para ajudar na memorização e en
 - Expo
 - Axios
 
+<br/>
 
 - npm install
 - npx expo start
